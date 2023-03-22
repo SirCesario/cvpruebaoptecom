@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Hoja de Vida - Educación</title>
     <style>
       /* Estilos para la página en general */
@@ -40,14 +41,7 @@
         margin-top: 10px;
         font-size: 18px;
       }
-      img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
+     
       p {
         margin-top: 10px;
         text-align: justify;
@@ -65,6 +59,35 @@
         bottom: 0;
         width: 100%;
       }
+
+      .educacion {
+    margin-top: 20px;
+    }
+    .educacion h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+    .educacion .Titulo {
+    margin-bottom: 20px;
+    }
+
+    .educacion .Titulo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    .educacion .instituto{
+    font-style: italic;
+    margin-bottom: 5px;
+    }
+    .educacion .Titulo .fecha {
+    font-style: italic;
+    margin-bottom: 5px;
+    }
+
       
     </style>
   </head>
@@ -78,27 +101,22 @@
       <a href="experiencia.html">Experiencia</a>
     </nav>
     <main>
-      <h2>Datos Personales</h2>
-      <h3>Nombres y Apellidos</h3>
-      <p>Julio Cesar Cuevas Cardenas</p>
-      <h3>Fecha y Lugar de Nacimiento</h3>
-      <p>Fecha de Nacimiento: 15/05/1987</p>
-      <p>Lugar de Nacimiento: Bogotá, Colombia</p>
-      <h2>Información Personal</h2>
-      <img src="/assest/img/perfil.jpg" alt="Foto de Perfil">
-      <p>
-        Soy un desarrollador Full-Stack con experiencia en la entrega de software escalable y sostenible
-        para clientes financieros y minoristas. Mi habilidad para trabajar en equipo, liderazgo y resolución
-        de problemas me han destacado como un miembro valioso del equipo. Además, me caracterizo por mi 
-        capacidad de arendizaje autónomo, pensamiento crítico, creatividad, responsabilidad, empatía,
-        adaptabilidad, iniciativa y principios éticos.También tengo un conocimiento sólido en patrones de 
-        diseño, lo que me permite crear soluciones técnicas elegantes y eficientes.
-      </p>
-      <ul>
-        <li>Idioma E: Comprende/Habla/Escribe</li>
-        <li>Idioma 2: Comprende/Habla/Escribe</li>
-        <li>Idioma 3: Comprende/Habla/Escribe</li>
-      </ul>
+        <section class="educacion">
+            <h2>Educación</h2>
+          
+            <article class="Titulo">
+              <h3>Ingeniero de Sistemas </h3>
+              <p class="instituto">Fundacion Universitaria del Area Andina</p>
+              <p class="fecha">Agost - 2021 / Dic 2023</p>
+            </article>
+
+            <article class="Titulo">
+              <h3>Tecnologo en Sistemas y Telecomunicaciones </h3>
+              <p class="instituto">Servicio Nacional de Aprendizaje</p>
+              <p class="fecha">Agost - 2013 / Abril 2015</p>
+            </article>
+                      
+        </section>
     </main>
     <footer>
       Correo electrónico: jahve20@hotmail.com | Teléfono: (+57) 304-2055905 | Linkedin <a href="https://www.linkedin.com/in/julio-cesar-cuevas-cardenas-29566556/" target="_blank">
